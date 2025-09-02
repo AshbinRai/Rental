@@ -8,7 +8,7 @@ const Selection = () => {
     const [dropoffTime, setDropoffTime] = useState('10:00');
     const [location, setLocation] = useState('');
     const [sameLocation, setSameLocation] = useState(true);
-    const [cookieSettings, setCookieSettings] = useState(false);
+    
 
     return (
         <div className="min-h-screen flex flex-col pt-16">
